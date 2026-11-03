@@ -1,0 +1,55 @@
+{
+  "macro_f1": 0.7256686360459946,
+  "recall": {
+    "Normal": 1.0,
+    "Warning": 0.4444444444444444,
+    "Critical": 0.9333333333333333
+  },
+  "precision": {
+    "Normal": 0.98,
+    "Warning": 0.9411764705882353,
+    "Critical": 0.42424242424242425
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Normal",
+      "Warning",
+      "Critical"
+    ],
+    "values": [
+      [
+        49,
+        0,
+        0
+      ],
+      [
+        1,
+        16,
+        19
+      ],
+      [
+        0,
+        1,
+        14
+      ]
+    ]
+  },
+  "feature_importance": {
+    "rx_optical_power_dbm": 0.22164142826359368,
+    "latency_ms": 0.1484823095646602,
+    "packet_loss_pct": 0.36267724351384656,
+    "cpu_load_pct": 0.10344094166015663,
+    "temperature_c": 0.08636692163797305,
+    "device_type_CORE_ROUTER": 0.010873314204413191,
+    "device_type_OLT": 0.0063688573948520915,
+    "device_type_ONT": 0.00549877202256782,
+    "region_BANDUNG": 0.007100001354832674,
+    "region_JAKARTA": 0.01005051143335238,
+    "region_MAKASSAR": 0.007603157025005603,
+    "region_MEDAN": 0.018081063168578906,
+    "region_SURABAYA": 0.011815478756167282
+  },
+  "quality_gate": "FAILED",
+  "train_size": 400,
+  "test_size": 100
+}

@@ -1,0 +1,15 @@
+.venv/
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/chroma/
+data/logs/
+data/artifacts/*.joblib
+.pytest_cache/
+.ruff_cache/
+*.ipynb_checkpoints/
