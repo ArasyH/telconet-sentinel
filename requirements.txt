@@ -92,7 +92,7 @@ shellingham==1.5.4
 sniffio==1.3.1
 starlette==1.10.0
 streamlit==1.66.1
--e git+https://github.com/ArasyH/final-projects-2026.git@4bc607ad2d8aec8bec9b4f5cc4c37f7fdd14075c#egg=telconet_sentinel&subdirectory=telconet-sentinel
+-e .
 tenacity==9.2.1
 threadpoolctl==3.7.0
 tokenizers==0.23.3
